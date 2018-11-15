@@ -8,9 +8,9 @@ public class DAO {
     private Connection connection = null;
         public DAO () throws ClassNotFoundException, InstantiationException,
         IllegalAccessException, SQLException {
-        String databaseURL = "jdbc:postgresql://localhost/exemplo";
+        String databaseURL = "jdbc:postgresql://localhost/APS_POO";
         String usuario = "postgres";
-        String senha = "1234";
+        String senha = "root";
         String driverName = "org.postgresql.Driver";
         //Carrega o driver
         Class.forName(driverName).newInstance();
