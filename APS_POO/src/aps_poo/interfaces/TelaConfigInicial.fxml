@@ -13,48 +13,48 @@
    <children>
       <AnchorPane layoutX="29.0" layoutY="39.0" prefHeight="323.0" prefWidth="543.0">
          <children>
-            <Label layoutX="127.0" layoutY="41.0" text="Num. Peddoas:">
+            <Label layoutX="130.0" layoutY="41.0" text="Num. Pessoas:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="224.0" layoutY="37.0" />
+            <TextField fx:id="tfPessoas" layoutX="224.0" layoutY="37.0" />
             <Label layoutX="173.0" layoutY="72.0" text="Pratos:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="224.0" layoutY="68.0" />
+            <TextField fx:id="tfPratos" layoutX="224.0" layoutY="68.0" />
             <Label layoutX="166.0" layoutY="104.0" text="Saladas:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="224.0" layoutY="100.0" />
+            <TextField fx:id="tfSalada" layoutX="224.0" layoutY="100.0" />
             <Label layoutX="134.0" layoutY="136.0" text="Carboidratos:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="224.0" layoutY="132.0" />
+            <TextField fx:id="tfCarboidrato" layoutX="224.0" layoutY="132.0" />
             <Label layoutX="34.0" layoutY="231.0" text="Tempo Mínimo de Alimentação:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="225.0" layoutY="228.0" />
+            <TextField fx:id="tfTempoMi" layoutX="225.0" layoutY="228.0" />
             <Label layoutX="155.0" layoutY="169.0" text="Proteínas:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="224.0" layoutY="165.0" />
+            <TextField fx:id="tfProteinas" layoutX="224.0" layoutY="165.0" />
             <Label layoutX="178.0" layoutY="201.0" text="Sucos:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="225.0" layoutY="197.0" />
+            <TextField fx:id="tfSucos" layoutX="225.0" layoutY="197.0" />
             <Label layoutX="32.0" layoutY="266.0" text="Tempo Máximo de Alimentação:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font></Label>
-            <TextField layoutX="226.0" layoutY="262.0" />
-            <Button layoutX="397.0" layoutY="262.0" mnemonicParsing="false" text="Simular" />
-            <Button layoutX="463.0" layoutY="262.0" mnemonicParsing="false" text="Voltar" />
+            <TextField fx:id="tfTempoMa" layoutX="226.0" layoutY="262.0" />
+            <Button fx:id="btnSimular" layoutX="397.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickSimular" text="Simular" />
+            <Button fx:id="btnVoltar" layoutX="463.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickVoltar" text="Voltar" />
          </children>
       </AnchorPane>
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">

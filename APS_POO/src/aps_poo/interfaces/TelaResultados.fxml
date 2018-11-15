@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="Controllers.TelaResultadosController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TelaResultadosController">
    <children>
       <AnchorPane layoutX="25.0" layoutY="97.0" prefHeight="207.0" prefWidth="550.0">
          <children>
@@ -28,7 +27,7 @@
                   <Font name="Times New Roman Italic" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="16.0" layoutY="86.0" text="Carboidratos::">
+            <Label layoutX="16.0" layoutY="86.0" text="Carboidratos:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font>
@@ -53,7 +52,7 @@
                   <Font name="Times New Roman Italic" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="278.0" layoutY="29.0" text="Tempo Total:">
+            <Label layoutX="279.0" layoutY="14.0" text="Tempo Total:">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font>
@@ -63,8 +62,58 @@
                   <Font name="Times New Roman Italic" size="14.0" />
                </font>
             </Label>
-            <Button layoutX="275.0" layoutY="129.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Salvar no Banco" />
-            <Button layoutX="275.0" layoutY="168.0" mnemonicParsing="false" text="Voltar à tela inicial" />
+            <Button fx:id="btnSalvar" layoutX="275.0" layoutY="129.0" mnemonicParsing="false" onAction="#clickSalvar" prefHeight="25.0" prefWidth="114.0" text="Salvar no Banco" />
+            <Button fx:id="btnVoltar" layoutX="275.0" layoutY="168.0" mnemonicParsing="false" onAction="#clickVoltar" text="Voltar à tela inicial" />
+            <Label fx:id="lblPessoas" layoutX="106.0" layoutY="14.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPratos" layoutX="66.0" layoutY="38.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblSalada" layoutX="68.0" layoutY="62.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblCarboidratos" layoutX="105.0" layoutY="86.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProteinas" layoutX="85.0" layoutY="112.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblSuco" layoutX="60.0" layoutY="133.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMinimo" layoutX="209.0" layoutY="156.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMaximo" layoutX="212.0" layoutY="180.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTotal" layoutX="364.0" layoutY="14.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMedio" layoutX="366.0" layoutY="65.0" prefHeight="16.0" prefWidth="23.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
