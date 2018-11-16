@@ -21,12 +21,15 @@ public class Main extends Application {
         myStage = stage;
         stage.show();
     }
+    
+    public static void main(String[] args)/* throws ClassNotFoundException,InstantiationException, IllegalAccessException, SQLException*/ {
+        /*DAO connection = new DAO();
+        Statement stm = connection.getConnection().createStatement();
+        //stm.execute("INSERT INTO endereco (rua, numero, bairro) VALUES ('dasflores',12,'girassois');");*/
+        launch(args);
+    }
 
     /**
      * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        launch(args);
-    }
-    
+     */    
 }

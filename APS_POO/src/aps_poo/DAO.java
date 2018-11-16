@@ -17,4 +17,8 @@ public class DAO {
         //Conecta o BD
         connection = DriverManager.getConnection(databaseURL, usuario, senha);
         }
+
+    Object getConnection() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
