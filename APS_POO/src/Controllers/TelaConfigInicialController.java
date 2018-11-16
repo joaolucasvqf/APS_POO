@@ -26,6 +26,7 @@ public class TelaConfigInicialController implements Initializable {
         Scene scene = new Scene(root);
         Main.myStage.setScene(scene);
     }
+    @FXML
     private void clickVoltar(ActionEvent event) throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("/interfaces/TelaInicial.fxml"));
         Scene scene = new Scene(root);

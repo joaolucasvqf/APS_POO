@@ -1,4 +1,4 @@
-package interfaces;
+package Controllers;
 
 import aps_poo.Main;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 
 public class TelaInicialController implements Initializable {
-
+    
     @FXML
     private Button btnIniciar;
     @FXML
@@ -30,8 +30,7 @@ public class TelaInicialController implements Initializable {
         Scene scene = new Scene(root);
         Main.myStage.setScene(scene);
     }
-    
-    
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

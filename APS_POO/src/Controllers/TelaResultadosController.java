@@ -23,8 +23,9 @@ public class TelaResultadosController implements Initializable {
     private void clickSalvar(ActionEvent event){
         //Inserir funções do banco
     }
+    @FXML
     private void clickVoltar(ActionEvent event) throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("/interfaces/TelaConfigInicial.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/interfaces/TelaInicial.fxml"));
         Scene scene = new Scene(root);
         Main.myStage.setScene(scene);
     }

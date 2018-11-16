@@ -54,7 +54,7 @@
                </font></Label>
             <TextField fx:id="tfTempoMa" layoutX="226.0" layoutY="262.0" />
             <Button fx:id="btnSimular" layoutX="397.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickSimular" text="Simular" />
-            <Button fx:id="btnVoltar" layoutX="463.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickVoltar" text="Voltar" />
+            <Button fx:id="btnVoltar" layoutX="464.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickVoltar" text="Voltar" />
          </children>
       </AnchorPane>
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
