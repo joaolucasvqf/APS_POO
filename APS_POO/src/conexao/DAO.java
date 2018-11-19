@@ -1,4 +1,4 @@
-package aps_poo;
+package conexao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,7 +16,9 @@ public class DAO {
         Class.forName(driverName).newInstance();
         //Conecta o BD
         connection = DriverManager.getConnection(databaseURL, usuario, senha);
+            System.out.println("Conectado");
         }
+        
 
     Object getConnection() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

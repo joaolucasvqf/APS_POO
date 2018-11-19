@@ -1,9 +1,7 @@
 package aps_poo;
 
-import conexao.DAO;
 import java.sql.SQLException;
 import javafx.application.Application;
-import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
